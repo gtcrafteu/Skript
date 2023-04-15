@@ -1,5 +1,5 @@
 # GTCraft-Skrypty
-Skrypty używane przez serwer GTCraft.eu do działania, wieksozsc od Mero (TFMRO)
+Skrypty używane przez serwer GTCraft.eu do działania, wieksozsc od Mero (@RealZuko)
 
 
 
