@@ -1,0 +1,7 @@
+command inv [<offline player>]:
+    aliases: inventory, eq
+    trigger:
+        if arg-1 is set:
+            execute player command "/invsee %arg-1%"
+        else:
+            execute player command "/invsee %player%"

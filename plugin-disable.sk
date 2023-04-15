@@ -1,0 +1,16 @@
+
+command /pl:
+	trigger:
+		send "&7[&6&lPoliticalMC&7] &cNie masz permisji"
+
+command /plugins:
+	trigger:
+		send "&7[&6&lPoliticalMC&7] &cNie masz permisji"
+
+command /bukkit:plugins:
+	trigger:
+		send "&7[&6&lPoliticalMC&7] &cNie masz permisji"
+
+command /bukkit:pl:
+	trigger:
+		send "&7[&6&lPoliticalMC&7] &cNie masz permisji"

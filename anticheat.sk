@@ -1,0 +1,61 @@
+every 2 seconds:
+    loop all players:
+        if loop-player has netherite helmet:
+            if loop-player doesn't have permission "gtcraft.anticheat":
+                execute console command "helpop AntiCheat: %loop-player% posiada zablokowany item! (Netherite Helmet)"
+every 2 seconds:
+    loop all players:
+        if loop-player has netherite chestplate:
+            if loop-player doesn't have permission "gtcraft.anticheat":
+                execute console command "helpop AntiCheat: %loop-player% posiada zablokowany item! (Netherite chestplate)"
+every 2 seconds:
+    loop all players:
+        if loop-player has netherite leggings:
+            if loop-player doesn't have permission "gtcraft.anticheat":
+                execute console command "helpop AntiCheat: %loop-player% posiada zablokowany item! (Netherite leggings)"
+every 2 seconds:
+    loop all players:
+        if loop-player has netherite boots:
+            if loop-player doesn't have permission "gtcraft.anticheat":
+                execute console command "helpop AntiCheat: %loop-player% posiada zablokowany item! (Netherite boots)"
+every 2 seconds:
+    loop all players:
+        if loop-player has end crystal:
+            if loop-player doesn't have permission "gtcraft.anticheat":
+            execute console command "helpop AntiCheat: %loop-player% posiada zablokowany item! (end crystal)"
+
+on place barrier:
+    if player doesn't have permission "gtcraft.anticheat":
+        execute console command "ban %player% gtcraft.anticheat: Tried to place invalid block (BARRIER)"
+        cancel event
+
+on place bedrock:
+    if player doesn't have permission "gtcraft.anticheat":
+        execute console command "ban %player% gtcraft.anticheat: Tried to place invalid block (BEDROCK)"
+        cancel event
+
+every 2 seconds:
+    loop all players:
+        if loop-player has bedrock:
+            if loop-player doesn't have permission "gtcraft.anticheat": 
+                execute console command "helpop AntiCheat: %loop-player% posiada zablokowany item! (end crystal)"
+
+on drop bedrock:
+    if player doesn't have permission "gtcraft.anticheat":
+        execute console command "ban %player% gtcraft.anticheat: Tried to drop invalid block (BEDROCK)"
+        cancel event
+
+on drop barrier:
+    if player doesn't have permission "gtcraft.anticheat":
+        execute console command "ban %player% gtcraft.anticheat: Tried to drop invalid block (BARRIER)"
+        cancel event
+
+every 2 seconds:
+    loop all players:
+        if loop-player has Barrier Block:
+            if loop-player doesn't have permission "gtcraft.anticheat":
+                execute console command "helpop AntiCheat: %loop-player% posiada zablokowany item! (Barrier Block)"
+on command "op":
+    if player doesn't have permission "gtcraft.op":
+        kick player due to "Ni ma opa :D"
+        cancel event

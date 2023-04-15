@@ -1,0 +1,30 @@
+command /clearchat [<text>]:
+	permission: clearchat
+	aliases: /cc
+	trigger:
+		if argument is "tajne" or "t":
+			loop 400 times:
+				send "" to all players
+		else:
+			loop 400 times:
+				send "" to all players
+			send "&cChat został wyczyszczony przez &6%player%" to all players
+command /chatoff:
+	permission: chatoff
+	aliases: /coff
+	trigger:
+		set {chat} to 0
+		send "&cChat został wyłączony przez &6%player%" to all players
+command /chaton:
+	permission: chaton
+	aliases: /con
+	trigger:
+		set {chat} to 1
+		send "&cChat został włączony przez &6%player%" to all players
+on chat:
+	if {chat} is 0:
+		player has permission "chatpisanie":
+			stop
+		else:
+			cancel event
+			send "&cChat jest wyłączony"
