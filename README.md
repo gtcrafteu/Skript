@@ -10,3 +10,5 @@ git add .
 git commit -m  "Dodano (coś tam)
 ```
 
+GTMagnez Mnie trzyma w piwnicy help
+

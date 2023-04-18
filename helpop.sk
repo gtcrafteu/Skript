@@ -5,11 +5,11 @@ command /helpop [<text>]:
         if arg-1 is not set:
             send "&cProsze opisz z czym możemy ci pomóc!"
         else:
-            send "&cWiadomość została wysłana!" to player
+            send "&2Wiadomość została wysłana!" to player
             loop all players:
                 if loop-player has permission "helpop.receive":
                     send "" to loop-player 
                     send "&8======================" to loop-player 
-                    send "&8[&cWiadomośc od:&8] &c%player% &7>> %arg 1%" to loop-player 
+                    send "&8[&cWiadomośc od:&8] &8%player% &f>> %arg 1%" to loop-player 
                     send "&8======================" to loop-player 
                     send "" to loop-player 

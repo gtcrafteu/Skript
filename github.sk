@@ -2,5 +2,5 @@ command /github:
     aliases: /gh, /bledy /bug
     trigger:
         send ""
-        send "&6&lGTCraft&.f&lEU &7| &6 Github do zgloszenia bledow: &b<link:https://github.com/gtcrafteu>&n Kliknij tutaj!"
+        send  "&6Github do zgloszenia bledow: &b<link:https://github.com/gtcrafteu>&n Kliknij tutaj!"
         send ""

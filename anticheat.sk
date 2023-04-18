@@ -35,7 +35,7 @@ on drop barrier:
 
 
 # Inventory checks
-every 2 seconds:
+every 0.5 seconds:
     loop all players: #Check if a player has bedrock
         if loop-player has bedrock:
             if loop-player doesn't have permission "zuko.illegals": 
@@ -43,11 +43,11 @@ every 2 seconds:
                     if loop-player-2 has permission "zuko.illegals-reports":
                         send "" to loop-player-2 
                         send "&8======================" to loop-player-2
-                        send "&cAnti-Illegals &7>> %loop-player-1% Ma Nielegalny item (Bedrock)" to loop-player-2
+                        send "&cItem-Check &7>> %loop-player-1% Ma Nielegalny item (Bedrock)" to loop-player-2
                         send "&8======================" to loop-player-2
                         send "" to loop-player-2
 
-every 2 seconds:
+every 0.5 seconds:
     loop all players:
         if loop-player-1 has Barrier Block: #Check for item
             if loop-player doesn't have permission "zuko.illegals": #Check for permission to have the item
@@ -55,5 +55,5 @@ every 2 seconds:
                     if loop-player-2 has permission "zuko.illegals-reports": #Checks for permission roceiver reports
                         send "" to loop-player-2 
                         send "&8======================" to loop-player-2
-                        send "&cAnti-Illegals &7>> %loop-player-1% Ma Nielegalny item (Barrier Block)" to loop-player-2
+                        send "&cItem-Check &7>> %loop-player-1% Ma Nielegalny item (Barrier Block)" to loop-player-2
                         send "&8======================" to loop-player-2
