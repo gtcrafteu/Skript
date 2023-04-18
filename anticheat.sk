@@ -57,4 +57,3 @@ every 2 seconds:
                         send "&8======================" to loop-player-2
                         send "&cAnti-Illegals &7>> %loop-player-1% Ma Nielegalny item (Barrier Block)" to loop-player-2
                         send "&8======================" to loop-player-2
-                        send "" to loop-player-2
