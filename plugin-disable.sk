@@ -1,15 +1,18 @@
+options:
+	disabled: send "Plugins [0]:"
+
 
 command /pl:
 	trigger:
-		send [Plugins]0: 
+		{@disabled}
 
 command /plugins:
 	trigger:
-		send [Plugins]0: 
+		{@disabled} 
 
 command /bukkit:plugins:
 	trigger:
-		send [Plugins]0: 
+		{@disabled}
 command /bukkit:pl:
 	trigger:
-		send [Plugins]0: 
+		{@disabled}

@@ -43,7 +43,7 @@ every 0.5 seconds:
                     if loop-player-2 has permission "zuko.illegals-reports":
                         send "" to loop-player-2 
                         send "&8======================" to loop-player-2
-                        send "&cAnti-Illegals &7>> %loop-player-1% Ma Nielegalny item (Bedrock)" to loop-player-2
+                        send "&cItem-Check &7>> %loop-player-1% Ma Nielegalny item (Bedrock)" to loop-player-2
                         send "&8======================" to loop-player-2
                         send "" to loop-player-2
 
@@ -55,5 +55,5 @@ every 0.5 seconds:
                     if loop-player-2 has permission "zuko.illegals-reports": #Checks for permission roceiver reports
                         send "" to loop-player-2 
                         send "&8======================" to loop-player-2
-                        send "&cAnti-Illegals &7>> %loop-player-1% Ma Nielegalny item (Barrier Block)" to loop-player-2
+                        send "&cItem-Check &7>> %loop-player-1% Ma Nielegalny item (Barrier Block)" to loop-player-2
                         send "&8======================" to loop-player-2
