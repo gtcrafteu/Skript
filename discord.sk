@@ -1,6 +1,0 @@
-command /dc:
-    aliases: /discord /dsc /vc /ticket
-    trigger:
-        send ""
-        send "&6&lGTCraft&f&l.EU&7| &6Discord: &b<link:https://discord.gg/SacpYjWj/>&n Kliknij tutaj!"
-        send ""
